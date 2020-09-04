@@ -16,7 +16,7 @@ import com.cos.review.model.Product;
 
 // http://hare.kr/222065140009
 // https://search.naver.com/search.naver?date_from=&date_option=0&date_to=&dup_remove=1&nso=&post_blogurl=&post_blogurl_without=&query=%EA%B0%A4%EB%9F%AD%EC%8B%9C20&sm=tab_pge&srchby=all&st=sim&where=post&start=41
-// 섬네일, 블로그주소, 제목, 날짜
+// 썸네일, 블로그주소, 제목, 날짜
 public class NaverBlogCrawTest {
 	
 	@Test
@@ -58,7 +58,7 @@ public class NaverBlogCrawTest {
 	}
 	
 	
-
+	//403 에러 뜨면 10분 기다렸다가 하면 된다.
 	//@Test
 	public void 제품리뷰_블로그_크롤링() {
 		int start = 1; //10씩 증가하면 됨.

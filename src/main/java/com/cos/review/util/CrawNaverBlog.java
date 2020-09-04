@@ -11,11 +11,11 @@ import com.cos.review.model.Product;
 
 public class CrawNaverBlog {
 	
-	public List<Product> startDayCraw(){
+	// 스프링 스케줄 리눅스로 크론탭으로  .class파일은 때리기 이걸로 배치 프로그램을 돌리는 거다.
+	//키워드 테이블 만들어서
+	public List<Product> startDayCraw(){ //매일 아침마다 자동으로 돌게 할 것임.
 		return null;
 	}
-	
-	
 	
 	public List<Product> startAllCraw(String keyword){
 		
