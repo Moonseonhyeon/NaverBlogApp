@@ -6,6 +6,6 @@ import com.cos.review.model.SearchKeyword;
 
 public interface SearchKeywordRepository extends JpaRepository<SearchKeyword, Integer>{
 		
-		SearchKeyword findByKeyword(String keyword);
+	SearchKeyword findByKeyword(String keyword);
 		
 }
